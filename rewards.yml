@@ -1,0 +1,11 @@
+#Add '#' char for each field you want to temp remove
+#You can use "/rv item" command in game for add reward by user interface, or just add it here.
+#   /!\ Take care /!\ If you wanna add an reward, check if total percentage of all items registries here don't exceed 100% (VoteReward'll notify you)
+reward_0:
+   type: DIRT
+   amount: 64
+   percent: 0.10
+reward_1:
+   type: STONE
+   amount: 64
+   percent: 0.15

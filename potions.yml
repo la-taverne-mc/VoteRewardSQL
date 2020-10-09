@@ -1,0 +1,10 @@
+#All types available are : fly, creeper, phantom, mining, swimming
+#Set different ID from others custom items (Custom items ID start to 0 end at 8)
+#Use '@' char to split lore lines.
+potion_0:
+   name: "&aPotion de vol 2 minutes 30"
+   type: "fly"
+   time: 150
+   lore: "&bCette potion vous permet@&bde voler pendant 2 minutes 30"
+   ID: 100
+   percent: 0.10

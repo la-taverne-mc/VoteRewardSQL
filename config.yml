@@ -1,0 +1,16 @@
+#Sql is optional and not required.
+use-sql: false # Set false for a save in files.
+table-prefix: vr_
+sql-host: 127.0.0.1
+sql-port: 3306
+sql-database: database
+sql-username: root
+sql-password: password
+
+#Plugin options
+inter-server: false #VoteReward supports inter-server, use SQL services for it.
+server-id: 0 #If inter-server is true, set different ID from potential other own servers.
+expire_bag: #Define all values on 0 if isn't expire
+   y: 0
+   m: 0
+   d: 14

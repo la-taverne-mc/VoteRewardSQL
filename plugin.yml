@@ -1,0 +1,12 @@
+name: VoteReward
+author: Mecopi
+version: 2.0.4
+api-version: 1.13
+main: fr.mecopi.votereward.Main
+commands:
+   rvitem:
+      description: Cette commande permet de voir toutes les recompenses obtenables en votant.
+   fakevote:
+      description: Cette commande permet d'obtenir un objet aleatoirement.
+   rvbag:
+      description: Cette commande permet d'ouvrir le sac de recompenses.
